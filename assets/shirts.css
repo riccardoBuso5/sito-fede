@@ -61,11 +61,13 @@ body {
 .navbar {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
+    flex-wrap: wrap;
 }
 
 .nav-container {
@@ -73,24 +75,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
 .logo-section {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.8rem;
+    flex-shrink: 0;
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
-    border-radius: 10px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 800;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: var(--white);
     box-shadow: var(--shadow-md);
 }
@@ -98,26 +102,28 @@ body {
 .logo-text {
     color: var(--white);
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     display: none;
+    white-space: nowrap;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .nav-links a {
     color: var(--white);
     text-decoration: none;
     font-weight: 600;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
     border-radius: 6px;
     transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -933,11 +939,16 @@ body {
 
 @media (max-width: 768px) {
     .logo-text {
-        display: inline;
+        display: none;
     }
     
     .nav-links {
-        gap: 1rem;
+        gap: 0.8rem;
+    }
+
+    .nav-links a {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.6rem;
     }
 
     .cta-content {
@@ -960,6 +971,10 @@ body {
 
     .footer-logo-section {
         justify-content: center;
+    }
+
+    .services-stacked {
+        grid-template-columns: 1fr;
     }
 }
 
