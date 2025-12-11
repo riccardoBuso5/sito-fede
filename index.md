@@ -35,21 +35,21 @@ subtitle: Scopri la mia collezione di magliette storiche delle squadre più impo
     
     <div class="services-stacked">
       <div class="service-card-large">
-        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Spedizione" class="service-card-image">
+        <img src="/sito-fede/assets/shirts/1servizio.jpg" alt="Spedizione" class="service-card-image">
         <div class="service-content">
           <h3>Dall'ingrosso a casa tua</h3>
           <p>Offriamo prezzi competitivi direttamente da fornitori selezionati. Consegna rapida e affidabile direttamente a casa tua, con packaging sicuro e professionale.</p>
         </div>
       </div>
       <div class="service-card-large">
-        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Personalizzazione" class="service-card-image">
+        <img src="/sito-fede/assets/shirts/2servizio.jpg" alt="Personalizzazione" class="service-card-image">
         <div class="service-content">
           <h3>Personalizza la tua maglia</h3>
           <p>Crea la tua maglietta personalizzata con nome, numero e stemmi. Stampe di alta qualità e resistenti nel tempo, perfette per collezionisti e appassionati.</p>
         </div>
       </div>
       <div class="service-card-large">
-        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Più Sport" class="service-card-image">
+        <img src="/sito-fede/assets/shirts/3servizio.jpg" alt="Più Sport" class="service-card-image">
         <div class="service-content">
           <h3>Non solo calcio</h3>
           <p>Abbiamo anche magliette di altre leghe e sport. Pallavolo, basket, rugby e molto altro. Una collezione variegata per ogni sport amato.</p>
@@ -198,7 +198,7 @@ subtitle: Scopri la mia collezione di magliette storiche delle squadre più impo
       <h2>Porta la Tua passione sempre con te</h2>
       <p>Che sia da tifoso piuttosto che da protagonista.</p>
     </div>
-    <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Acquista ora" class="cta-image">
+    <img src="/sito-fede/assets/shirts/cpa.jpg" alt="Acquista ora" class="cta-image">
   </div>
 </section>
 

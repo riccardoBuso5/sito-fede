@@ -8,10 +8,10 @@ shirts:
     colors:
       - name: "Rosso"
         hex: "#CF0A3D"
-        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+        image: "/sito-fede/assets/shirts/milan-rosso.nero.jpg"
       - name: "Bianco"
         hex: "#FFFFFF"
-        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+        image: "/sito-fede/assets/shirts/milan-bianco.jpg"
   
   - id: 2
     name: "Inter Striped"
@@ -22,10 +22,10 @@ shirts:
     colors:
       - name: "Blu/Nero"
         hex: "#001A3A"
-        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+        image: "/sito-fede/assets/shirts/inter-blunero.jpg"
       - name: "Bianco"
         hex: "#FFFFFF"
-        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+        image: "/sito-fede/assets/shirts/inter-bianco.jpg"
   
   - id: 3
     name: "Juve Home"
@@ -36,10 +36,10 @@ shirts:
     colors:
       - name: "Bianco/Nero"
         hex: "#000000"
-        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+        image: "/sito-fede/assets/shirts/juventus-bianconero.jpg"
       - name: "Azzurro"
         hex: "#00A3E0"
-        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+        image: "/sito-fede/assets/shirts/juventus-azzurro.jpg"
   
   - id: 4
     name: "Roma Giallorossa"
@@ -50,7 +50,7 @@ shirts:
     colors:
       - name: "Giallo/Rosso"
         hex: "#FFD700"
-        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+        image: "/sito-fede/assets/shirts/roma-giallorosso.jpg"
       - name: "Nero"
         hex: "#000000"
-        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+        image: "/sito-fede/assets/shirts/roma-nero.jpg"
