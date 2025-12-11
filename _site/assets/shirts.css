@@ -694,9 +694,10 @@ body {
     margin-bottom: 1rem;
     font-weight: 800;
     color: var(--text-dark);
-}1.8rem;
     margin-bottom: 1rem;
-    font-weight: 7e p {
+}
+
+.service-card-large p {
     font-size: 1.1rem;
     line-height: 1.8;
     color: var(--text-light);
