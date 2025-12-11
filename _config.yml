@@ -1,0 +1,23 @@
+title: Magliette di Calcio
+author: 
+  name: Collezione Magliette
+  email: 
+
+description: >-
+  Collezione di magliette di calcio storiche
+
+baseurl: ""
+url: "http://localhost:4000"
+
+github_username: riccardoBuso5
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - .jekyll-cache/
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
