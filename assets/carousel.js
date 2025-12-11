@@ -46,5 +46,39 @@ document.addEventListener('DOMContentLoaded', () => {
       const indicator = container.querySelector('.indicator');
       if (indicator) indicator.classList.add('active');
     }
+    
+    // Rendi l'immagine attiva cliccabile
+    container.addEventListener('click', (e) => {
+      if (e.target.tagName === 'IMG' && e.target.parentElement.classList.contains('carousel-item')) {
+        const activeImage = container.querySelector('.carousel-item.active img');
+        if (activeImage) {
+          openModal(activeImage.src);
+        }
+      }
+    });
   });
+});
+
+function openModal(imageSrc) {
+  const modal = document.getElementById('imageModal');
+  const modalImage = document.getElementById('modalImage');
+  if (modal && modalImage) {
+    modalImage.src = imageSrc;
+    modal.style.display = 'flex';
+  }
+}
+
+function closeModal() {
+  const modal = document.getElementById('imageModal');
+  if (modal) {
+    modal.style.display = 'none';
+  }
+}
+
+// Chiudi il modal cliccando fuori dall'immagine
+document.addEventListener('click', (e) => {
+  const modal = document.getElementById('imageModal');
+  if (e.target === modal) {
+    closeModal();
+  }
 });

@@ -56,21 +56,6 @@ subtitle: Scopri la mia collezione di magliette storiche delle squadre più impo
         </div>
       </div>
     </div>
-
-    <div class="services-images">
-      <div class="service-image-box">
-        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Maglietta in primo piano">
-        <p>Qualità fotografica superiore</p>
-      </div>
-      <div class="service-image-box">
-        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Dettagli maglietta">
-        <p>Attenzione ai dettagli</p>
-      </div>
-      <div class="service-image-box">
-        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Custodia protettiva">
-        <p>Conservazione accurata</p>
-      </div>
-    </div>
   </div>
 </section>
 
