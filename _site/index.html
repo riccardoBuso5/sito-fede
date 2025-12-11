@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magliette di Calcio</title>
-    <link rel="stylesheet" href="/assets/main.css">
-    <link rel="stylesheet" href="/assets/shirts.css">
+    <link rel="stylesheet" href="/sito-fede/assets/shirts.css">
   </head>
 
   <body><header class="header">
@@ -18,13 +17,253 @@
     </div>
   </div>
 </header>
-<main class="container">
+<main>
       <section id="shirts" class="section shirts-section">
   <div class="shirts-container">
     <h1 class="section-title">Magliette di Calcio</h1>
     <p class="section-subtitle">Scopri la mia collezione di magliette storiche delle squadre più importanti</p>
 
     <div class="shirts-grid">
+      
+      <div class="shirt-card">
+        <!-- Carosello immagini -->
+        <div class="carousel-container">
+          <div class="carousel">
+            
+            <div class="carousel-item" id="slide-1-0">
+              <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Classic Milan - Rosso" loading="lazy" />
+              <span class="color-label">Rosso</span>
+            </div>
+            
+            <div class="carousel-item" id="slide-1-1">
+              <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Classic Milan - Bianco" loading="lazy" />
+              <span class="color-label">Bianco</span>
+            </div>
+            
+          </div>
+
+          <!-- Controlli carosello -->
+          <button class="carousel-btn prev" onclick="moveCarousel(1, -1)" aria-label="Immagine precedente">
+            &#10094;
+          </button>
+          <button class="carousel-btn next" onclick="moveCarousel(1, 1)" aria-label="Immagine successiva">
+            &#10095;
+          </button>
+
+          <!-- Indicatori colori -->
+          <div class="carousel-indicators">
+            
+            <button class="indicator active" onclick="showSlide(1, 0)" aria-label="Colore Rosso" style="background-color: #CF0A3D">
+            </button>
+            
+            <button class="indicator " onclick="showSlide(1, 1)" aria-label="Colore Bianco" style="background-color: #FFFFFF">
+            </button>
+            
+          </div>
+        </div>
+
+        <!-- Informazioni card -->
+        <div class="card-content">
+          <h3 class="shirt-name">Classic Milan</h3>
+          <p class="shirt-team">AC Milan</p>
+          <p class="shirt-season">Stagione 2023/24</p>
+          <p class="shirt-description">La maglietta classica del Milan con il celebre rossonero.</p>
+
+          <!-- Colori disponibili -->
+          <div class="colors-list">
+            <span class="colors-label">Colori disponibili:</span>
+            <div class="color-badges">
+              
+              <span class="color-badge" title="Rosso" style="background-color: #CF0A3D"></span>
+              
+              <span class="color-badge" title="Bianco" style="background-color: #FFFFFF"></span>
+              
+            </div>
+          </div>
+
+          <button class="btn-view" onclick="window.open('https://www.instagram.com/p/classic-milan/', '_blank');">Vedi su Instagram</button> 
+        </div>
+      </div>
+      
+      <div class="shirt-card">
+        <!-- Carosello immagini -->
+        <div class="carousel-container">
+          <div class="carousel">
+            
+            <div class="carousel-item" id="slide-2-0">
+              <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Inter Striped - Blu/Nero" loading="lazy" />
+              <span class="color-label">Blu/Nero</span>
+            </div>
+            
+            <div class="carousel-item" id="slide-2-1">
+              <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Inter Striped - Bianco" loading="lazy" />
+              <span class="color-label">Bianco</span>
+            </div>
+            
+          </div>
+
+          <!-- Controlli carosello -->
+          <button class="carousel-btn prev" onclick="moveCarousel(2, -1)" aria-label="Immagine precedente">
+            &#10094;
+          </button>
+          <button class="carousel-btn next" onclick="moveCarousel(2, 1)" aria-label="Immagine successiva">
+            &#10095;
+          </button>
+
+          <!-- Indicatori colori -->
+          <div class="carousel-indicators">
+            
+            <button class="indicator active" onclick="showSlide(2, 0)" aria-label="Colore Blu/Nero" style="background-color: #001A3A">
+            </button>
+            
+            <button class="indicator " onclick="showSlide(2, 1)" aria-label="Colore Bianco" style="background-color: #FFFFFF">
+            </button>
+            
+          </div>
+        </div>
+
+        <!-- Informazioni card -->
+        <div class="card-content">
+          <h3 class="shirt-name">Inter Striped</h3>
+          <p class="shirt-team">Inter</p>
+          <p class="shirt-season">Stagione 2023/24</p>
+          <p class="shirt-description">La storica maglia nerazzurra con le righe orizzontali.</p>
+
+          <!-- Colori disponibili -->
+          <div class="colors-list">
+            <span class="colors-label">Colori disponibili:</span>
+            <div class="color-badges">
+              
+              <span class="color-badge" title="Blu/Nero" style="background-color: #001A3A"></span>
+              
+              <span class="color-badge" title="Bianco" style="background-color: #FFFFFF"></span>
+              
+            </div>
+          </div>
+
+          <button class="btn-view" onclick="window.open('https://www.instagram.com/p/inter-striped/', '_blank');">Vedi su Instagram</button> 
+        </div>
+      </div>
+      
+      <div class="shirt-card">
+        <!-- Carosello immagini -->
+        <div class="carousel-container">
+          <div class="carousel">
+            
+            <div class="carousel-item" id="slide-3-0">
+              <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Juve Home - Bianco/Nero" loading="lazy" />
+              <span class="color-label">Bianco/Nero</span>
+            </div>
+            
+            <div class="carousel-item" id="slide-3-1">
+              <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Juve Home - Azzurro" loading="lazy" />
+              <span class="color-label">Azzurro</span>
+            </div>
+            
+          </div>
+
+          <!-- Controlli carosello -->
+          <button class="carousel-btn prev" onclick="moveCarousel(3, -1)" aria-label="Immagine precedente">
+            &#10094;
+          </button>
+          <button class="carousel-btn next" onclick="moveCarousel(3, 1)" aria-label="Immagine successiva">
+            &#10095;
+          </button>
+
+          <!-- Indicatori colori -->
+          <div class="carousel-indicators">
+            
+            <button class="indicator active" onclick="showSlide(3, 0)" aria-label="Colore Bianco/Nero" style="background-color: #000000">
+            </button>
+            
+            <button class="indicator " onclick="showSlide(3, 1)" aria-label="Colore Azzurro" style="background-color: #00A3E0">
+            </button>
+            
+          </div>
+        </div>
+
+        <!-- Informazioni card -->
+        <div class="card-content">
+          <h3 class="shirt-name">Juve Home</h3>
+          <p class="shirt-team">Juventus</p>
+          <p class="shirt-season">Stagione 2023/24</p>
+          <p class="shirt-description">La storica maglia bianconera della Juventus.</p>
+
+          <!-- Colori disponibili -->
+          <div class="colors-list">
+            <span class="colors-label">Colori disponibili:</span>
+            <div class="color-badges">
+              
+              <span class="color-badge" title="Bianco/Nero" style="background-color: #000000"></span>
+              
+              <span class="color-badge" title="Azzurro" style="background-color: #00A3E0"></span>
+              
+            </div>
+          </div>
+
+          <button class="btn-view" onclick="window.open('https://www.instagram.com/p/juve-home/', '_blank');">Vedi su Instagram</button> 
+        </div>
+      </div>
+      
+      <div class="shirt-card">
+        <!-- Carosello immagini -->
+        <div class="carousel-container">
+          <div class="carousel">
+            
+            <div class="carousel-item" id="slide-4-0">
+              <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Roma Giallorossa - Giallo/Rosso" loading="lazy" />
+              <span class="color-label">Giallo/Rosso</span>
+            </div>
+            
+            <div class="carousel-item" id="slide-4-1">
+              <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Roma Giallorossa - Nero" loading="lazy" />
+              <span class="color-label">Nero</span>
+            </div>
+            
+          </div>
+
+          <!-- Controlli carosello -->
+          <button class="carousel-btn prev" onclick="moveCarousel(4, -1)" aria-label="Immagine precedente">
+            &#10094;
+          </button>
+          <button class="carousel-btn next" onclick="moveCarousel(4, 1)" aria-label="Immagine successiva">
+            &#10095;
+          </button>
+
+          <!-- Indicatori colori -->
+          <div class="carousel-indicators">
+            
+            <button class="indicator active" onclick="showSlide(4, 0)" aria-label="Colore Giallo/Rosso" style="background-color: #FFD700">
+            </button>
+            
+            <button class="indicator " onclick="showSlide(4, 1)" aria-label="Colore Nero" style="background-color: #000000">
+            </button>
+            
+          </div>
+        </div>
+
+        <!-- Informazioni card -->
+        <div class="card-content">
+          <h3 class="shirt-name">Roma Giallorossa</h3>
+          <p class="shirt-team">AS Roma</p>
+          <p class="shirt-season">Stagione 2024/25</p>
+          <p class="shirt-description">La maglia giallorossa con il leggendario stemma della Roma.</p>
+
+          <!-- Colori disponibili -->
+          <div class="colors-list">
+            <span class="colors-label">Colori disponibili:</span>
+            <div class="color-badges">
+              
+              <span class="color-badge" title="Giallo/Rosso" style="background-color: #FFD700"></span>
+              
+              <span class="color-badge" title="Nero" style="background-color: #000000"></span>
+              
+            </div>
+          </div>
+
+          <button class="btn-view" onclick="window.open('https://www.instagram.com/p/roma-giallorossa/', '_blank');">Vedi su Instagram</button> 
+        </div>
+      </div>
       
     </div>
   </div>

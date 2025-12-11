@@ -1,0 +1,56 @@
+shirts:
+  - id: 1
+    name: "Classic Milan"
+    team: "AC Milan"
+    season: "2023/24"
+    description: "La maglietta classica del Milan con il celebre rossonero."
+    instagram: "https://www.instagram.com/p/classic-milan/"
+    colors:
+      - name: "Rosso"
+        hex: "#CF0A3D"
+        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+      - name: "Bianco"
+        hex: "#FFFFFF"
+        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+  
+  - id: 2
+    name: "Inter Striped"
+    team: "Inter"
+    season: "2023/24"
+    description: "La storica maglia nerazzurra con le righe orizzontali."
+    instagram: "https://www.instagram.com/p/inter-striped/"
+    colors:
+      - name: "Blu/Nero"
+        hex: "#001A3A"
+        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+      - name: "Bianco"
+        hex: "#FFFFFF"
+        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+  
+  - id: 3
+    name: "Juve Home"
+    team: "Juventus"
+    season: "2023/24"
+    description: "La storica maglia bianconera della Juventus."
+    instagram: "https://www.instagram.com/p/juve-home/"
+    colors:
+      - name: "Bianco/Nero"
+        hex: "#000000"
+        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+      - name: "Azzurro"
+        hex: "#00A3E0"
+        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+  
+  - id: 4
+    name: "Roma Giallorossa"
+    team: "AS Roma"
+    season: "2024/25"
+    description: "La maglia giallorossa con il leggendario stemma della Roma."
+    instagram: "https://www.instagram.com/p/roma-giallorossa/"
+    colors:
+      - name: "Giallo/Rosso"
+        hex: "#FFD700"
+        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
+      - name: "Nero"
+        hex: "#000000"
+        image: "/sito-fede/assets/shirts/fiorentina-maglia.jpg"
