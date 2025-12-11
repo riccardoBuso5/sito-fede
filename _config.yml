@@ -6,8 +6,8 @@ author:
 description: >-
   Collezione di magliette di calcio storiche
 
-baseurl: ""
-url: "http://localhost:4000"
+baseurl: "/sito-fede"
+url: "https://riccardoBuso5.github.io"
 
 github_username: riccardoBuso5
 
