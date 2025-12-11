@@ -4,7 +4,78 @@ title: Magliette di Calcio
 subtitle: Scopri la mia collezione di magliette storiche delle squadre più importanti
 ---
 
-<section id="shirts" class="section shirts-section">
+<!-- SEZIONE BRAND -->
+<section class="brand-section">
+  <div class="brand-container">
+    <h2>Chi Siamo</h2>
+    <p class="brand-description">Benvenuti nella nostra collezione esclusiva di magliette di calcio storiche. Siamo appassionati di calcio e storia sportiva, dedicati a preservare i capi più iconici delle nostre squadre preferite.</p>
+    <p class="brand-tagline">"Ogni maglietta racconta una storia. Ogni colore un'emozione."</p>
+    <div class="brand-highlights">
+      <div class="highlight">
+        <h3>Qualità Garantita</h3>
+        <p>Autenticità e precisione nella riproduzione dei modelli storici</p>
+      </div>
+      <div class="highlight">
+        <h3>Passione Calcistica</h3>
+        <p>Realizzate con amore per i veri appassionati di sport</p>
+      </div>
+      <div class="highlight">
+        <h3>Collezione Esclusiva</h3>
+        <p>Modelli rari e introvabili da tutto il calcio italiano</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEZIONE SERVIZI -->
+<section id="servizi" class="services-section">
+  <div class="services-container">
+    <h2>I Nostri Servizi</h2>
+    <p class="services-intro">Scopri cosa offriamo ai nostri clienti appassionati di magliette calcio</p>
+    
+    <div class="services-stacked">
+      <div class="service-card-large">
+        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Spedizione" class="service-card-image">
+        <div class="service-content">
+          <h3>Dall'ingrosso a casa tua</h3>
+          <p>Offriamo prezzi competitivi direttamente da fornitori selezionati. Consegna rapida e affidabile direttamente a casa tua, con packaging sicuro e professionale.</p>
+        </div>
+      </div>
+      <div class="service-card-large">
+        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Personalizzazione" class="service-card-image">
+        <div class="service-content">
+          <h3>Personalizza la tua maglia</h3>
+          <p>Crea la tua maglietta personalizzata con nome, numero e stemmi. Stampe di alta qualità e resistenti nel tempo, perfette per collezionisti e appassionati.</p>
+        </div>
+      </div>
+      <div class="service-card-large">
+        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Più Sport" class="service-card-image">
+        <div class="service-content">
+          <h3>Non solo calcio</h3>
+          <p>Abbiamo anche magliette di altre leghe e sport. Pallavolo, basket, rugby e molto altro. Una collezione variegata per ogni sport amato.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="services-images">
+      <div class="service-image-box">
+        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Maglietta in primo piano">
+        <p>Qualità fotografica superiore</p>
+      </div>
+      <div class="service-image-box">
+        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Dettagli maglietta">
+        <p>Attenzione ai dettagli</p>
+      </div>
+      <div class="service-image-box">
+        <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Custodia protettiva">
+        <p>Conservazione accurata</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEZIONE COLLEZIONE MAGLIETTE -->
+<section id="collezione" class="section shirts-section">
   <div class="shirts-container">
     <h1 class="section-title">{{ page.title }}</h1>
     <p class="section-subtitle">{{ page.subtitle }}</p>
@@ -59,8 +130,6 @@ subtitle: Scopri la mia collezione di magliette storiche delle squadre più impo
               {% endfor %}
             </div>
           </div>
-
-          <button class="btn-view" onclick="window.open('{{ shirt.instagram }}', '_blank');">Vedi su Instagram</button> 
         </div>
       </div>
       {% endfor %}
@@ -120,3 +189,65 @@ subtitle: Scopri la mia collezione di magliette storiche delle squadre più impo
     });
   });
 </script>
+
+
+<!-- SEZIONE CTA ACQUISTA -->
+<section class="cta-section">
+  <div class="cta-content">
+    <div class="cta-text">
+      <h2>Porta la Tua passione sempre con te</h2>
+      <p>Che sia da tifoso piuttosto che da protagonista.</p>
+    </div>
+    <img src="/sito-fede/assets/shirts/fiorentina-maglia.jpg" alt="Acquista ora" class="cta-image">
+  </div>
+</section>
+
+<!-- SEZIONE CONTATTI FORM -->
+<section id="contatti" class="contact-section">
+  <div class="contact-container">
+    <h2>Contattaci</h2>
+    <p class="contact-intro">Hai domande sulla nostra collezione? Desideri una maglietta specifica? Scrivici!</p>
+    
+    <form class="contact-form" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+      <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required placeholder="Il tuo nome">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="tua.email@esempio.com">
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Oggetto</label>
+        <input type="text" id="subject" name="subject" required placeholder="Oggetto del messaggio">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Messaggio</label>
+        <textarea id="message" name="message" rows="6" required placeholder="Scrivi il tuo messaggio..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="maglietta">Maglietta di interesse</label>
+        <select id="maglietta" name="maglietta">
+          <option value="">Seleziona una maglietta</option>
+          {% for shirt in site.data.shirts.shirts %}
+          <option value="{{ shirt.name }}">{{ shirt.name }} - {{ shirt.team }} ({{ shirt.season }})</option>
+          {% endfor %}
+          <option value="altro">Altra / Non specificata</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn-submit">Invia Messaggio</button>
+    </form>
+
+    <div class="contact-info">
+      <p>📧 Rispondiamo entro 24 ore</p>
+      <p>🌍 Spediamo in tutta Italia</p>
+      <p>⭐ Garantia di soddisfazione</p>
+    </div>
+  </div>
+</section>
+
